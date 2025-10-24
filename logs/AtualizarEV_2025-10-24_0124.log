@@ -1,0 +1,13 @@
+01:24:59 [INFO] ? Backup criado: C:\ProjetosEV\EVStopPlanner\backups_icons\MapScreen.tsx_2025-10-24_0124.bak
+01:24:59 [INFO] ? Backup criado: C:\ProjetosEV\EVStopPlanner\backups_icons\App.tsx_2025-10-24_0124.bak
+01:24:59 [INFO] ? Backup criado: C:\ProjetosEV\EVStopPlanner\backups_icons\build.gradle_2025-10-24_0124.bak
+01:24:59 [INFO] ?? Limpando cache do npm...
+01:25:04 [INFO] ? Cache limpo.
+01:25:04 [INFO] ?? Limpando build Android...
+01:25:08 [INFO] ? Gradle clean executado com sucesso.
+01:25:08 [INFO] ?? Reinstalando pacotes de ícones...
+01:25:15 [INFO] ? Pacote reinstalado com sucesso.
+01:25:17 [INFO] ?? Processo concluído!
+01:25:17 [INFO] ?? Backups salvos em: C:\ProjetosEV\EVStopPlanner\backups_icons
+01:25:17 [INFO] ?? Log salvo em: C:\ProjetosEV\EVStopPlanner\logs\AtualizarEV_2025-10-24_0124.log
+01:25:17 [INFO] ?? Agora execute manualmente: npx react-native run-android
