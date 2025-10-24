@@ -30,12 +30,13 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Install dependencies
+        run: npm install
+
+      - name: Configure Android SDK
         run: |
-          npm install
+          yes | sudo ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses
+          sudo ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0"
 
       - name: Make gradlew executable
         run: chmod +x android/gradlew
